@@ -1,23 +1,23 @@
 * {
     padding:0;
     margin:0;
-    font-family:'Quicsand', sans-serif;
+    font-family:'Arial', 'Times New Roman';
     color: #333;
 }
 header {
+    background-color: lightskyblue;
     height: 70px;
 }
 header h1 {
-    display: inline-block ;
-    float:left;
-    padding:15px 24px;
+    display: inline-block ;     
+    padding:15px 24px;     
     text-transform: uppercase;
 }
 header h1 a {
     transition: 0.3s ;
 }
 header h1 a:hover {
-    color: #1F68B6;
+    color: white;
 }
 header ul {
     float: right;
@@ -30,12 +30,13 @@ header ul li a {
     transition: 0.3s;
 }
 header ul li a:hover {
-    color: #1F68B6;
+    color: white;
 }
 .btn {
     padding: 0.5rem 1rem; /* Mengurangi ruang di dalam tombol */
     font-size: 1rem; /* Ukuran teks lebih kecil */
-    border: 1px solid var(--bordercolor); /* Garis tepi lebih tipis */
+    color: #fff;
+    background-color: black;
 }
 
 a {
@@ -101,7 +102,7 @@ section {
 .banner h2,
 .banner p,
 .banner span {
-    color: #fff;
+    color: white;
 }
 .banner h2 {
     margin-bottom: 10px;
@@ -146,7 +147,7 @@ section h3::after {
 }
 #skills,
 #contact {
-     background-color: #f9f9f9;
+     background-color: #fff;
 }
 #skills .bar {
    height: 30px;
